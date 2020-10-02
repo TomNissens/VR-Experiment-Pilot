@@ -1,0 +1,44 @@
+cf_DEBUG:True
+nr_blocks:7
+data_path:./data
+pp_nr:03
+optotrak:__builtin__._OptotrakExtension(1)
+nr_trial_types:96
+distractor_colors:['same', 'different']
+cf_optohome_z:0.08
+cf_tabledepth:1.6
+blue:[0.5, 0.5, 1]
+cf_optozero_x:0.01
+cf_optozero_y:0.005
+distractor_positions:[1, 2, 3]
+nr_trials:672
+log_heading:pp_nr,pp_id,session,block,trial,dis_pos_rel,filler2_pos,dis_pos_cont,tar_shape,t_search_on,tar_col_name,tar_pos,filler1_pos,dis_pos,finger_on_shape,finger_on_target,dis_condition,finger_on_filler,t_trial_start,search_time,finger_on_start,long_start,t_on_start,interval_beforesearch,finger_on_distractor,max_search_time,reach_end_cutoff_t,nr_trials,nr_blocks,min_dist_start,min_dist_shape
+
+reach_end_cutoff_t:1
+start_pos:[0.0, 0.8595, 0.223]
+data_log_file:./data/data_log_03mm_1600950527.csv
+shape_height:0.77
+red:[1, 0.5, 0.5]
+cf_tablewidth:0.8
+cf_optozero_z:0.01
+shape_distance:0.57
+cf_hand_size:0.01
+target_positions:[0, 1, 2, 3]
+max_search_time:1
+cf_optomarker:4
+reach_end_cutoff_list:[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+cf_optoserver:127.0.0.1
+tolog_exp_vars:['max_search_time', 'reach_end_cutoff_t', 'nr_trials', 'nr_blocks', 'min_dist_start', 'min_dist_shape']
+target_colors:['red', 'blue']
+min_dist_start:0.01
+pp_id:mm
+shape_positions:[[-0.2299999999999999, 1.168371685740842, 0.57], [-0.07987816172678794, 1.2230115663856158, 0.57], [0.079878161726788, 1.2230115663856158, 0.57], [0.23000000000000007, 1.1683716857408417, 0.57]]
+cf_optofilter:(-3, -2, -1)
+name:experiment
+cf_optohome_y:0.025
+cf_optohome_x:0.43
+min_dist_shape:0.07
+target_shapes:['diamond', 'sphere']
+data_hand_file:./data/data_hand_03mm_1600950527.csv
+opto_offset:[0.0, 0.0, 0.0]
+cf_tableheight:0.855
