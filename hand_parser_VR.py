@@ -18,8 +18,8 @@ import seaborn as sns
 
 class Parser:
     def __init__(self):
-        write_csv = 1
-        self.plot_figs = 0
+        write_csv = 0
+        self.plot_figs = 1
         
         self.count_resample_error = 0
         self.participants = {}
