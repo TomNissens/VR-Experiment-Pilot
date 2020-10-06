@@ -67,19 +67,19 @@ class Parser:
                         one_trial_str = ''
                         for attrname, attrval in trial.items():
                             if header_ready == 0:
-                                header_str += (str(attrname) + ', ')
+                                header_str += (str(attrname) + ',')
                                 header.append(attrname)
                             else:
                                 if attrname not in header:
                                     ValueError('trial keys not same')
-                            one_trial_str += (str(attrval) + ', ')
+                            one_trial_str += (str(attrval) + ',')
                         if header_ready == 0:
-                            header_str = header_str[:-2]
+                            header_str = header_str[:-1]
                             header_str += '\n'
                             f.write(header_str)
                             header_ready = 1
                             del header_str
-                        one_trial_str = one_trial_str[:-2]
+                        one_trial_str = one_trial_str[:-1]
                         one_trial_str += '\n'
                         f.write(one_trial_str)
 
